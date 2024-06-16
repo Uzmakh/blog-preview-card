@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Frontend Mentor | Blog preview card</title>
     <meta charset="UTF-8" />
-    <!-- displays site properly based on user's device -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- favicon -->
     <link
@@ -13,36 +13,35 @@
     />
     <!-- custom css -->
     <link rel="stylesheet" href="style.css" />
-    <title>Frontend Mentor | Blog preview card</title>
   </head>
   <body>
-    <div class="card">
-      <div class="img-container">
-        <img src="images/illustration-article.svg" alt="" />
-      </div>
+    <main>
+      <div class="card">
+     
+          <img src="images/illustration-article.svg" alt="banner-image" />
+      
 
-      <div class="card-content">
-        <button>
-          <a href="#"> Learning</a>
-        </button>
-        <p class="date">Published 21 Dec 2023</p>
-        <h1><a href="#">HTML & CSS foundations</a></h1>
-        <p class="detail">
-          These languages are the backbone of every website, defining structure,
-          content, and presentation.
-        </p>
+        <div class="card-content">
+          <a href="#" class="button"> Learning</a>
+          <p class="date">Published 21 Dec 2023</p>
+          <p class="title">
+            <a href="#">HTML & CSS foundations</a>
+          </p>
+          <p class="detail">
+            These languages are the backbone of every website, defining
+            structure, content, and presentation.
+          </p>
 
-        <div class="author">
-          <div class="author-img">
-            <img src="images/image-avatar.webp" alt="" />
+          <div class="author">
+            <img src="images/image-avatar.webp" alt="blog author" />
+            <span>Greg Hooper</span>
           </div>
-          <span>Greg Hooper</span>
+          <!-- /author -->
         </div>
-        <!-- /author -->
+        <!-- /card-content -->
       </div>
-      <!-- /card-content -->
-    </div>
-    <!-- /card -->
+      <!-- /card -->
+    </main>
     <!-- FOOTER -->
     <div class="attribution">
       Challenge by

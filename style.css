@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@500;800&display=swap");
 
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -16,66 +18,60 @@ body {
   font-family: "Figtree", sans-serif;
   background: var(--background);
   padding: 2rem 1rem;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
 }
 .card {
   background: var(--card-background);
-  max-width: 360px;
+  /* max-width: 360px; */
+  max-width: 22.5rem;
   margin: 0px auto;
+  padding: 20px;
   border: 2px solid var(--black);
   border-radius: 1rem;
   box-shadow: 10px 10px 0px black;
-  overflow: hidden;
 }
-
-.img-container {
-  padding: 20px;
-}
-.img-container img {
+.card img {
+  display: block;
   width: 100%;
-  max-width: 332px;
   border-radius: 12px;
-}
-.card-content {
-  margin: 20px;
 }
 .card-content .detail {
   color: var(--grey);
   margin-bottom: 20px;
-  line-height: 1.5;
 }
-button {
-  display: block;
+.button {
+  display: inline-block;
   background: var(--background);
   padding: 10px 15px;
   border-radius: 6px;
   border: none;
-  margin-top: -20px;
-  margin-bottom: 20px;
-}
-button a {
   text-decoration: none;
   color: var(--black);
   font-weight: 800;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-.card-content h1 {
-  font-size: 22px;
+.card-content .title {
+  font-size: 1.4rem;
+  font-weight: 600;
   padding: 20px 0;
 }
-.card-content h1 a {
+.card-content .title a {
   text-decoration: none;
   color: var(--black);
 }
-.card-content h1 a:hover {
+.card-content .title a:hover {
   color: var(--background);
   cursor: pointer;
 }
 .author {
   display: flex;
   align-items: center;
-  /* gap: 5px; */
+  gap: 1rem;
 }
-.author-img img {
-  width: 70%;
+.author img {
+  width: 15%;
 }
 .author span {
   color: var(--black);
@@ -97,15 +93,14 @@ button a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0;
-    height: 130vh;
+    min-height: 100svh;
   }
   .card {
-    max-width: 400px;
+    /* max-width: 400px; */
+    max-width: 25rem;
   }
-
-  .img-container img {
-    width: 100%;
-    max-width: 384px;
+  .card img {
+    /* max-width: 384px; */
+    max-width: 24rem;
   }
 }
