@@ -16,41 +16,25 @@ body {
   font-family: "Figtree", sans-serif;
   background: var(--background);
   padding: 2rem 1rem;
-
-
 }
 .card {
   background: var(--card-background);
-  max-width: 332px;
+  max-width: 360px;
   margin: 0px auto;
   border: 2px solid var(--black);
   border-radius: 1rem;
   box-shadow: 10px 10px 0px black;
   overflow: hidden;
 }
-@media (min-width: 750px) {
-    body{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0;
-        height: 130vh;
-    }
-    .card {
-      max-width: 400px;
-    }
-  }
 
 .img-container {
   padding: 20px;
 }
 .img-container img {
   width: 100%;
-  max-width: 384px;
+  max-width: 332px;
   border-radius: 12px;
 }
-
 .card-content {
   margin: 20px;
 }
@@ -107,5 +91,21 @@ button a {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+@media (min-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    height: 130vh;
+  }
+  .card {
+    max-width: 400px;
+  }
 
-
+  .img-container img {
+    width: 100%;
+    max-width: 384px;
+  }
+}
