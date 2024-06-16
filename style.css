@@ -21,7 +21,7 @@ body {
 }
 .card {
   background: var(--card-background);
-  max-width: 330px;
+  max-width: 332px;
   margin: 0px auto;
   border: 2px solid var(--black);
   border-radius: 1rem;
@@ -38,7 +38,7 @@ body {
         height: 130vh;
     }
     .card {
-      max-width: 530px;
+      max-width: 400px;
     }
   }
 
@@ -47,6 +47,7 @@ body {
 }
 .img-container img {
   width: 100%;
+  max-width: 384px;
   border-radius: 12px;
 }
 
