@@ -36,6 +36,10 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshot
+<img width="727" alt="fef-task-8desktop" src="https://github.com/Uzmakh/blog-preview-card/assets/91914613/17007237-9f75-4ae6-8ca9-eac6a111d226">
+
+<img width="244" alt="fef-task-8" src="https://github.com/Uzmakh/blog-preview-card/assets/91914613/8aa6896c-9f69-43fb-b690-a6dcac9de4cc">
+
 
 ### Links
 
